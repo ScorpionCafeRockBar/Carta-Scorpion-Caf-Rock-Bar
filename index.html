@@ -211,6 +211,68 @@ transition:.3s;
 .menu-links a:hover{
 color:#d40000;
 }
+
+.menu-toggle{
+
+display:none;
+
+background:none;
+
+border:none;
+
+color:white;
+
+font-size:34px;
+
+cursor:pointer;
+
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+
+display:block;
+
+}
+
+.menu-links{
+
+display:none;
+
+position:absolute;
+
+top:70px;
+
+left:0;
+
+width:100%;
+
+background:#111;
+
+flex-direction:column;
+
+padding:20px 0;
+
+}
+
+.menu-links.show{
+
+display:flex;
+
+}
+
+.menu-links a{
+
+padding:15px;
+
+font-size:20px;
+
+border-top:1px solid #333;
+
+}
+
+}
  
 </style>
 
@@ -224,7 +286,11 @@ color:#d40000;
     <img src="./images/logo.png" alt="Scorpion Café Rock Bar">
 </div>
 
-<div class="menu-links">
+<button class="menu-toggle" onclick="toggleMenu()">
+☰
+</button>
+
+<div class="menu-links" id="menuLinks">
     <a href="#inicio">Inicio</a>
     <a href="#carta">Carta</a>
     <a href="#promociones">Promociones</a>
@@ -362,6 +428,12 @@ imagen.addEventListener("touchend", function(e){
     }
 
 });
+
+function toggleMenu(){
+
+document.getElementById("menuLinks").classList.toggle("show");
+
+} 
  
 </script>
  
