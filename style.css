@@ -1,3 +1,24 @@
+/* =====================================================
+   CONFIGURACIÓN GENERAL
+===================================================== */
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+padding-top:80px;
+background:#000;
+font-family:Arial,Helvetica,sans-serif;
+color:white;
+text-align:center;
+}
+
+/* =====================================================
+   BOTONES
+===================================================== */
+  
 .whatsapp{
 display:inline-block;
 margin:25px 0;
@@ -13,10 +34,6 @@ transition:0.3s;
 
 .whatsapp:hover{
 background:#1da851;
-}
-
-html{
-scroll-behavior:smooth;
 }
 
 .boton-carta{
@@ -36,15 +53,10 @@ transition:.3s;
 background:#ff1a1a;
 }
   
-body{
-margin:0;
-padding-top:80px;
-background:#000;
-font-family:Arial,Helvetica,sans-serif;
-color:white;
-text-align:center;
-}
-
+/* =====================================================
+   ENCABEZADO (HEADER)
+===================================================== */
+  
 header{
 padding:25px;
 }
@@ -76,68 +88,51 @@ display:block;
 margin:0 auto;
 }
 
+/* =====================================================
+   VISOR DE LA CARTA
+===================================================== */
+  
 #contador{
-
 font-size:28px;
-
 margin-bottom:20px;
-
 color:white;
-
 }
 
 #imagenCarta{
-
 width:100%;
-
 max-width:900px;
-
 border-radius:10px;
-
 }
 
 .controles{
-
 margin:30px;
-
 }
 
 .controles button{
-
 background:#d40000;
-
 color:white;
-
 border:none;
-
 padding:15px 30px;
-
 font-size:20px;
-
 border-radius:8px;
-
 cursor:pointer;
-
 margin:10px;
-
 }
 
 .controles button:hover{
-
 background:#ff2a2a;
-
 }
 
 .controles button:disabled{
-
 background:#555;
-
 cursor:not-allowed;
-
 opacity:.5;
-
 }
 
+/* =====================================================
+   MENÚ DE NAVEGACIÓN
+===================================================== */
+  
 .menu-fijo{
 position:fixed;
 top:0;
@@ -176,87 +171,60 @@ color:#d40000;
 }
 
 .menu-toggle{
-
 display:none;
-
 background:none;
-
 border:none;
-
 color:white;
-
 font-size:34px;
-
 cursor:pointer;
-
 }
 
-@media (max-width:768px){
-
-.menu-toggle{
-
-display:block;
-
-}
-
+/* =====================================================
+   SECCIONES
+===================================================== */
+  
 section{
-
 padding:80px 20px;
-
 }
 
 section h2{
-
 color:#d40000;
-
 font-size:42px;
-
 margin-bottom:20px;
-
 }
 
 section p{
-
 font-size:20px;
-
 color:#ddd;
+}
 
+/* =====================================================
+   DISEÑO RESPONSIVO
+===================================================== */
+  
+@media (max-width:768px){
+.menu-toggle{
+display:block;
 }
  
 .menu-links{
-
 display:none;
-
 position:absolute;
-
 top:70px;
-
 left:0;
-
 width:100%;
-
 background:#111;
-
 flex-direction:column;
-
 padding:20px 0;
-
 }
 
 .menu-links.show{
-
 display:flex;
-
 }
 
 .menu-links a{
-
 padding:15px;
-
 font-size:20px;
-
 border-top:1px solid #333;
-
 }
-
 }
