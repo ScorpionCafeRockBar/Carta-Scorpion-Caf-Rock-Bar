@@ -3,16 +3,16 @@
 ===================================================== */
 
 html{
-scroll-behavior:smooth;
+    scroll-behavior:smooth;
 }
 
 body{
-margin:0;
-padding-top:80px;
-background:#000;
-font-family:Arial,Helvetica,sans-serif;
-color:white;
-text-align:center;
+    margin:0;
+    padding-top:80px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:white;
+    background:#000;
 }
 
 /* =====================================================
@@ -20,39 +20,38 @@ text-align:center;
 ===================================================== */
   
 .whatsapp{
-display:inline-block;
-margin:25px 0;
-padding:14px 28px;
-background:#25D366;
-color:white;
-text-decoration:none;
-font-size:20px;
-font-weight:bold;
-border-radius:8px;
-transition:0.3s;
+    display:inline-block;
+    margin:25px 0;
+    padding:14px 28px;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    background:#25D366;
+    border-radius:8px;
+    transition:.3s;
 }
 
 .whatsapp:hover{
-background:#1da851;
+    background:#1da851;
 }
 
 .boton-carta{
-display:inline-block;
-margin:20px 10px;
-padding:15px 35px;
-background:#d40000;
-color:white;
-text-decoration:none;
-font-size:20px;
-font-weight:bold;
-border-radius:8px;
-transition:.3s;
+    display:inline-block;
+    margin:20px 10px;
+    padding:15px 35px;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    background:#d40000;
+    border-radius:8px;
+    transition:.3s;
 }
 
 .boton-carta:hover{
-background:#ff1a1a;
-}
-  
+    background:#ff1a1a;
+}  
 /* =====================================================
    ENCABEZADO (HEADER)
 ===================================================== */
