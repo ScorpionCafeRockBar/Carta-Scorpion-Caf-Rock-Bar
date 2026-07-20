@@ -258,6 +258,29 @@ actualizar();
 
 }
 
+let inicioX = 0;
+let finX = 0;
+
+const imagen = document.getElementById("imagenCarta");
+
+imagen.addEventListener("touchstart", function(e){
+    inicioX = e.changedTouches[0].screenX;
+});
+
+imagen.addEventListener("touchend", function(e){
+
+    finX = e.changedTouches[0].screenX;
+
+    if(inicioX - finX > 50){
+        siguiente();
+    }
+
+    if(finX - inicioX > 50){
+        anterior();
+    }
+
+});
+ 
 </script>
  
 </body>
