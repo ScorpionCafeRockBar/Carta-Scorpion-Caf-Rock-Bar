@@ -136,6 +136,16 @@ margin:10px;
 background:#ff2a2a;
 
 }
+
+.controles button:disabled{
+
+background:#555;
+
+cursor:not-allowed;
+
+opacity:.5;
+
+}
  
 </style>
 
@@ -215,6 +225,12 @@ function actualizar(){
 document.getElementById("imagenCarta").src=imagenes[pagina];
 
 document.getElementById("contador").innerHTML="Página "+(pagina+1)+" de "+imagenes.length;
+
+const botones=document.querySelectorAll(".controles button");
+
+botones[0].disabled=(pagina===0);
+
+botones[1].disabled=(pagina===imagenes.length-1);
 
 }
 
