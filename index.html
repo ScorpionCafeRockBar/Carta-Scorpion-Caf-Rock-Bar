@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-<a class="whatsapp"
-href="https://wa.me/573021132519"
-target="_blank">
-📲 Escríbenos por WhatsApp
-</a>
-  
+ 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,6 +25,23 @@ transition:0.3s;
 background:#1da851;
 }
 
+.boton-carta{
+display:inline-block;
+margin:20px 10px;
+padding:15px 35px;
+background:#d40000;
+color:white;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+border-radius:8px;
+transition:.3s;
+}
+
+.boton-carta:hover{
+background:#ff1a1a;
+}
+  
 body{
 margin:0;
 padding:0;
@@ -87,9 +98,19 @@ margin:0 auto;
 
 <p>Viernes y Sábado: 5:00 p.m. – 2:30 a.m.</p>
 
+<a class="whatsapp"
+href="https://wa.me/573021132519"
+target="_blank">
+📲 Escríbenos por WhatsApp
+</a>
+
+<a href="#carta" class="boton-carta">
+📖 Ver carta
+</a>
+  
 </header>
 
-<div class="menu">
+<div class="menu" id="carta">
 
 <img src="images/pagina1.png">
 
