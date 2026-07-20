@@ -25,10 +25,11 @@ transition:0.3s;
 background:#1da851;
 }
 
-.boton-carta{
 html{
 scroll-behavior:smooth;
 }
+
+.boton-carta{
 display:inline-block;
 margin:20px 10px;
 padding:15px 35px;
@@ -236,6 +237,36 @@ display:block;
 
 }
 
+function toggleMenu(){
+
+document.getElementById("menuLinks").classList.toggle("show");
+
+} 
+
+section{
+
+padding:80px 20px;
+
+}
+
+section h2{
+
+color:#d40000;
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+section p{
+
+font-size:20px;
+
+color:#ddd;
+
+}
+ 
 .menu-links{
 
 display:none;
@@ -327,7 +358,9 @@ target="_blank">
 <a href="#carta" class="boton-carta">
 📖 Ver carta
 </a>
-  
+
+</header>
+
 <div class="menu" id="carta">
 
 <h2 id="contador">
@@ -349,8 +382,18 @@ alt="Carta Scorpion">
 Siguiente ▶
 </button>
 
+</div>
+
+</div>
+
 <section id="galeria">
 
+<h2>📸 Galería</h2>
+
+<p>Muy pronto podrás conocer el ambiente de Scorpion Café Rock Bar.</p>
+
+</section>
+ 
 <h2>📸 Galería</h2>
 
 <p>Muy pronto podrás conocer el ambiente de Scorpion Café Rock Bar.</p>
@@ -438,36 +481,7 @@ imagen.addEventListener("touchend", function(e){
 
 });
 
-function toggleMenu(){
 
-document.getElementById("menuLinks").classList.toggle("show");
-
-} 
-
-section{
-
-padding:80px 20px;
-
-}
-
-section h2{
-
-color:#d40000;
-
-font-size:42px;
-
-margin-bottom:20px;
-
-}
-
-section p{
-
-font-size:20px;
-
-color:#ddd;
-
-}
- 
 </script>
  
 </body>
