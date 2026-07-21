@@ -1,4 +1,45 @@
 /* =====================================================
+   VARIABLES GLOBALES
+===================================================== */
+
+:root{
+
+    /* Colores */
+
+    --color-principal:#d40000;
+    --color-principal-hover:#ff1a1a;
+
+    --color-fondo:#000;
+    --color-menu:#111;
+
+    --color-texto:#ffffff;
+    --color-texto-secundario:#dddddd;
+    --color-texto-footer:#999999;
+
+    --color-borde:#222222;
+    --color-borde-menu:#333333;
+
+    --color-boton-deshabilitado:#555555;
+
+    --color-whatsapp:#25D366;
+    --color-whatsapp-hover:#1da851;
+
+    --color-boton-hover:#ff2a2a;
+
+    /* Tipografía */
+
+    --fuente-principal:Arial, Helvetica, sans-serif;
+
+    --fuente-titulo:"Trebuchet MS", Impact, "Arial Black", sans-serif;
+
+    /* Bordes */
+
+    --radio-boton:8px;
+    --radio-imagen:10px;
+
+}
+
+/* =====================================================
    CONFIGURACIÓN GENERAL
 ===================================================== */
 
