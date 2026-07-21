@@ -229,28 +229,36 @@ color:#ddd;
 ===================================================== */
   
 @media (max-width:768px){
-.menu-toggle{
-display:block;
-}
- 
-.menu-links{
-display:none;
-position:absolute;
-top:70px;
-left:0;
-width:100%;
-background:#111;
-flex-direction:column;
-padding:20px 0;
-}
 
-.menu-links.show{
-display:flex;
-}
+    .menu-toggle{
+        display:block;
+    }
 
-.menu-links a{
-padding:15px;
-font-size:20px;
-border-top:1px solid #333;
-}
+    .menu-links{
+        position:absolute;
+        top:70px;
+        left:0;
+
+        width:100%;
+
+        display:none;
+        flex-direction:column;
+
+        padding:20px 0;
+
+        background:#111;
+    }
+
+    .menu-links.show{
+        display:flex;
+    }
+
+    .menu-links a{
+        padding:15px;
+
+        font-size:20px;
+
+        border-top:1px solid #333;
+    }
+
 }
