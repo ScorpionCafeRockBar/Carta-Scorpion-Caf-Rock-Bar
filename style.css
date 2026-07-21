@@ -57,34 +57,38 @@ body{
 ===================================================== */
   
 header{
-padding:25px;
+    padding:25px;
 }
 
 header img{
-width:300px;
-max-width:90%;
-height:auto;
+    width:300px;
+    max-width:90%;
+    height:auto;
 }
 
 h1{
-font-family:"Trebuchet MS", Impact, Arial Black, sans-serif;
-font-size:58px;
-color:#d40000;
-margin-top:20px;
-margin-bottom:10px;
-letter-spacing:2px;
-text-transform:uppercase;
+    margin-top:20px;
+    margin-bottom:10px;
+
+    font-family:"Trebuchet MS", Impact, "Arial Black", sans-serif;
+    font-size:58px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    color:#d40000;
 }
 
 p{
-margin:6px;
-font-size:18px;
+    margin:6px;
+
+    font-size:18px;
 }
 
 .menu img{
-width:100%;
-display:block;
-margin:0 auto;
+    display:block;
+
+    width:100%;
+    margin:0 auto;
 }
 
 /* =====================================================
