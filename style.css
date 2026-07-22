@@ -67,33 +67,37 @@ body{
     margin:25px 0;
     padding:14px 28px;
     font-size:20px;
-    font-weight:bold;
-    text-decoration:none;
-    color:white;
-    background:#25D366;
-    border-radius:8px;
+font-weight:bold;
+text-decoration:none;
+
+color:var(--color-texto);
+background:var(--color-whatsapp);
+
+border-radius:var(--radio-boton);
     transition:.3s;
 }
 
 .whatsapp:hover{
-    background:#1da851;
+    background:var(--color-whatsapp-hover);
 }
 
 .boton-carta{
     display:inline-block;
     margin:20px 10px;
     padding:15px 35px;
-    font-size:20px;
-    font-weight:bold;
-    text-decoration:none;
-    color:white;
-    background:#d40000;
-    border-radius:8px;
+   font-size:20px;
+font-weight:bold;
+text-decoration:none;
+
+color:var(--color-texto);
+background:var(--color-principal);
+
+border-radius:var(--radio-boton);
     transition:.3s;
 }
 
 .boton-carta:hover{
-    background:#ff1a1a;
+    background:var(--color-principal-hover);
 }  
 /* =====================================================
    ENCABEZADO (HEADER)
