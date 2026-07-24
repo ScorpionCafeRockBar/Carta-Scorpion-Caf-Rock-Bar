@@ -151,8 +151,12 @@ p{
 }
 
 #imagenCarta{
+    display:block;
+
     width:100%;
     max-width:900px;
+
+    margin:0 auto;
 
     border-radius:var(--radio-imagen);
 }
@@ -259,7 +263,7 @@ p{
 ===================================================== */
   
 section{
-padding:80px 20px;
+   padding:80px 20px;
 }
 
 section h2{
