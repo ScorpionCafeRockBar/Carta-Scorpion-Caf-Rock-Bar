@@ -147,14 +147,14 @@ p{
 
     font-size:28px;
 
-    color:white;
+    color:var(--color-texto);
 }
 
 #imagenCarta{
     width:100%;
     max-width:900px;
 
-    border-radius:10px;
+    border-radius:var(--radio-imagen);
 }
 
 .controles{
@@ -167,25 +167,25 @@ p{
 
     font-size:20px;
 
-    color:white;
-    background:#d40000;
+    color:var(--color-texto);
+background:var(--color-principal);
 
-    border:none;
-    border-radius:8px;
-
+border:none;
+border-radius:var(--radio-boton);
+   
     cursor:pointer;
 
     transition:background .3s;
 }
 
 .controles button:hover{
-    background:#ff2a2a;
+    background:var(--color-boton-hover);
 }
 
 .controles button:disabled{
     opacity:.5;
 
-    background:#555;
+    background:var(--color-boton-deshabilitado);
 
     cursor:not-allowed;
 }
