@@ -67,13 +67,13 @@ body{
     margin:25px 0;
     padding:14px 28px;
     font-size:20px;
-font-weight:bold;
-text-decoration:none;
+    font-weight:bold;
+    text-decoration:none;
 
-color:var(--color-texto);
-background:var(--color-whatsapp);
+    color:var(--color-texto);
+    background:var(--color-whatsapp);
 
-border-radius:var(--radio-boton);
+    border-radius:var(--radio-boton);
     transition:.3s;
 }
 
@@ -85,14 +85,14 @@ border-radius:var(--radio-boton);
     display:inline-block;
     margin:20px 10px;
     padding:15px 35px;
-   font-size:20px;
-font-weight:bold;
-text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
 
-color:var(--color-texto);
-background:var(--color-principal);
+    color:var(--color-texto);
+    background:var(--color-principal);
 
-border-radius:var(--radio-boton);
+    border-radius:var(--radio-boton);
     transition:.3s;
 }
 
@@ -168,10 +168,10 @@ p{
     font-size:20px;
 
     color:var(--color-texto);
-background:var(--color-principal);
+    background:var(--color-principal);
 
-border:none;
-border-radius:var(--radio-boton);
+    border:none;
+    border-radius:var(--radio-boton);
    
     cursor:pointer;
 
